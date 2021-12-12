@@ -8,14 +8,26 @@
       "type": "image/x-icon"
     },
     {
-      "src": "assets/icon/icon.png",
+      "src": "assets/icon/192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icon/512x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
+    },
+    {
+      "src": "assets/icon/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
+  "start_url": "/mocholads",
+  "display": "fullscreen",
   "theme_color": "#15202b",
   "background_color": "#15202b"
 }
